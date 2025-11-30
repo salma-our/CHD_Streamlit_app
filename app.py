@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+
+st.set_page_config(page_title="CHD Streamlit App - Salma Ouriaghli")  # titre de l’onglet
+st.title("CHD Prediction App – Salma Ouriaghli")  # titre visible
+
 # Configuration de la page
 st.set_page_config(
     page_title="Prédiction du risque de CHD",
